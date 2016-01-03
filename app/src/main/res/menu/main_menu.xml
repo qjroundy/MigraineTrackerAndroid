@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.quinn.myapplication.MainActivity">
+
+    <item
+        android:id="@+id/journal"
+        android:title="@string/journal">
+        <!-- Journal Menu -->
+        <menu>
+            <item
+                android:id="@+id/journal_add"
+                android:title="@string/add_journal" />
+            <item
+                android:id="@+id/journal_remove"
+                android:title="@string/remove_journal" />
+            <item
+                android:id="@+id/journal_list"
+                android:title="@string/list_journal" />
+            <item
+                android:id="@+id/journal_find"
+                android:title="@string/find_journal" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/notes"
+        android:title="@string/notes">
+        <!-- Journal Menu -->
+        <menu>
+            <item
+                android:id="@+id/notes_add"
+                android:title="@string/add_note" />
+            <item
+                android:id="@+id/notes_remove"
+                android:title="@string/remove_note" />
+            <item
+                android:id="@+id/notes_list"
+                android:title="@string/list_notes" />
+            <item
+                android:id="@+id/notes_find"
+                android:title="@string/find_note" />
+        </menu>
+    </item>
+</menu>

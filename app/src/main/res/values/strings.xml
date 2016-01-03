@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">MTA</string>
+    <string name="app_name">Migraine Tracker</string>
+    <string name="action_settings">Action Setting</string>
+    <string name="journal">Journal</string>
+    <string name="add_journal">Add Journal</string>
+    <string name="remove_journal">Delete Journal</string>
+    <string name="list_journal">List Journals</string>
+    <string name="find_journal">Search Journals</string>
+
+    <string name="notes">Journal</string>
+    <string name="add_note">Add Note</string>
+    <string name="remove_note">Delete Note</string>
+    <string name="list_notes">List Notes</string>
+    <string name="find_note">Search Notes</string>
 </resources>
